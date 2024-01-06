@@ -62,6 +62,9 @@ const config = {
       disableApplyEntryLazily: true,
     },
   },
+  devServer: {
+    historyApiFallback: true,
+  },
 };
 
 module.exports = config;
